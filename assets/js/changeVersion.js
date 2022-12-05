@@ -22,3 +22,10 @@ function versionIngles() {
         about.style.display="none";
     }
 }
+
+function abrirNuevoTab() {
+    // Abrir nuevo tab
+    var win = window.open("https://drive.google.com/file/d/11FAbAikM0BT5puFGuf3xKfHnSz8Bk3jO/view?usp=sharing", '_blank');
+    // Cambiar el foco al nuevo tab
+    win.focus();
+}
